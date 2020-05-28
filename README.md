@@ -1,6 +1,6 @@
 # An Example to use BERT to extract Features of ANY Text
 
-This repo aims at providing an easy to use and efficient code for extracting text features using BERT pre-trained model.
+This repo aims at providing an easy to use and efficient code for extracting text features using BERT pre-trained models.
 
 It has been originally designed to extract features of text instructions in [the R2R dataset for Visual and Language Navigation Task](https://bringmeaspoon.org/) in an efficient manner.
 
@@ -32,4 +32,4 @@ Since the BERT pre-trained model's download speed of the `transformers` package 
     - bert-base-uncased
     - bert-large-uncased
 
-Put the pre-trained model cache file in `~/.cache/torch/transformers/` and you can load a model directly via transformers API without modifying any package code.
+Put the pre-trained model cache file in `~/.cache/torch/transformers/` and you can load a model directly via `transformers` API without modifying any package code.
